@@ -18,7 +18,7 @@ env:
     openresty/echo-nginx-module
     openresty/headers-more-nginx-module
     openresty/set-misc-nginx-module
-  # The same as above, but for Windows.
+  # The same as above, but for Windows.-test
   # - kjdev/nginx-auth-jwt, kjdev/nginx-keyval: a bit complicated to build (TODO)
   NGINX_MODULES_WIN32: >-
     vision5/ngx_devel_kit
